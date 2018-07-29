@@ -1,18 +1,3 @@
-http://mapi.leta.lv/social/getdata/356938035643809/4a3d5162f85d572840fea5573f1133df052e57cf/
-
-
-padomaa par return VALUE
-par error codiem 
-
-!! atslēgas vārda garums 1 - 50
-!! ko daram ar followeriem, retwiitiem?
-!! cik daudz AV var vispar pievienot, maksajosh, nemaksajoshs?
-
-!! security checks, pirmos 20 tviitus padodam, japieliek lauks, kas cheko vai ir padoti 20 twiiti
-!! ir maksas juseris jeb nav
-
-
-
 Lietotaja pievienošana 
 ======================
 
@@ -249,49 +234,3 @@ DB struktūras
 	retweets - Integer
 	favorites - Integer
 	source - string
-
-
-
-
-
-
-
-Viņi taisa
-	- Lietotāju autorizācija/reģistrācija
-	- Keywordu uzturēšana (labošana, pievienošana, utt)
-	- Maksājumi
-	- Web puse
-	- Visi limiti kas saistīti ar Keywordiem, maksājumiem
-	- Pielāgošana pie mūsu API
-
-<!-- LETAs darbi (nodrošināt API)
-AJ: vajag paredzēt arī API nodokumentēšanu, ne tikai pašu API, lai mums nav viņiem jāstāv blakus un jābaksta ar pirkstu, kur kas jāliek.
- - Lietotāju pievienošana/dzēšana, requests mums: ADD user, REM user ~ 
-(2-3 dienas)
-AJ: aktuāls jautājums ir, vai mēs negribam pie sevis tos lietotājus arī pēc tam pieglabāt savā DB, iespējams viņus nevajadzētu dzēst tādēļ -->
- 
-<!-- - Pie Keyworda pievienošanas/dzēšanas, requests mums: KEY pievienošana, 
-KEY dzēšana ~ (2-3 dienas)
-	- Crawlera pielāgošana, pie sistēmas (Twitter, Interneta portāli, par 
-citiem nemaz nedomāju šobrīd, priekš sākuma būs ok) ~ (1 nedēļa)
-AJ: Facebook publiskās lapas arī jāņem iekšā, par to ir runa bijusi visu laiku -->
-
- - Requests pēc lietotāja ID, datu atdošana (JSON, HTML) ~ (1 nedēļa)
-AJ: šim pirmo daļu īsti nesapratu - par kāda lietotāja ID mēs runājam?
-
- - Amortizācija ~ (1 nedēļā)
-AJ: Amortizācija=buferis?
-
-salīdzini, vai neesmu kaut ko aizmirsis
-AJ: pirmajā iterācijā, domāju, ka ir gana ok detalizācija. Tālāk domāsim precīzāk, ja būs nākamie soļi.
-
-
-
-
-
-
-
-
-
-
-
